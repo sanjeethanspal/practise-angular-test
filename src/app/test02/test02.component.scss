@@ -1,0 +1,28 @@
+h1, h2,h3,h5,h6{
+    font-weight: 300;
+}
+
+.container-background{
+    background-image: url('../../assets/background.jpg'); 
+}
+
+
+p,input, optgroup{
+    font-size: 18px;
+    font-weight: 400;
+}
+.bold{
+    font-weight: bold;
+}
+
+.img-circle{
+    box-shadow: 5px 10px 5px grey;
+}
+
+tr{
+    border-bottom: 2px solid white;
+}
+td {
+    border: none !important;
+    background-color: #f4f4f4;
+}

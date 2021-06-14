@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row text-center">
+        <h1>Book an Appointment</h1>
+        <h5>Our Investing Topics</h5>
+        <br/>
+        <h3>Pick a topic, then we'll find time and place</h3>
+        <br/>
+    </div>
+    <div matchWidth="btn" class="row text-center">
+       <div *ngFor="let data of buttonData | async">
+            <div class="col-md-6">
+                <my-button [text]="data.text"></my-button>
+            </div>
+        </div> 
+    </div>
+    <div class="row text-center">
+        <a style="font-size: 20px; color: #198754;" [routerLink]="['/']">< Return to previous screen</a>
+    </div>
+
+</div>
